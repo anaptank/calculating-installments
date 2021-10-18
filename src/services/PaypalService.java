@@ -14,5 +14,4 @@ public class PaypalService implements OnlinePaymentService {
 	public double interest(double amount, int months) {
 		return (amount * months * MONTHLY_INTEREST_PERCENTAGE) / 100;
 	}
-
 }
